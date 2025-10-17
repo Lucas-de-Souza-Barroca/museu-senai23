@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cabecario{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    position: fixed;
+}
+
+
+.logo{
+    margin-top: 5px;
+    margin-left: 7px;
+}
+
+.textcab{
+    font-family:"Cinzel", serif ;
+    color: rgb(255, 255, 255);
+    margin-left: 40px;
+    text-decoration: none;
+    font-size: large;
+}
+
+.fund{
+    background-image: url(imagens/banner.png);
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.textbann{
+    font-family:"Cinzel", serif ;   
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    font-size: larger;
+}
+
+.botao{
+    color: white;
+    background-color: darkgray;
+    width: 130px;
+    height: 40px;
+    border-radius: 7px;
+}
+
+.tronco{
+    width: 500px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.fund1{
+    background-color: darkgray;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    flex-wrap: wrap;
+}
+
+.contato{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    padding: 50px;
+}
+
+.textfin{
+    font-family:"Cinzel", serif ;
+    margin-bottom: 15px;
+}
+
+.maps{
+    width: 700px;
+    height: 550px;
+    text-align: center;
+    margin: 40px;
+}
+
+.imag{
+    width: 700px;
+    height: 550px;
+    margin: 40px;
+}
+
+.fim1{
+    color: white;
+    padding-top: 30px;
+}
+
+.fim23{
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}
+
+.textbann2{
+    font-family:"Cinzel", serif ;
+    text-align: center;
+    width: 100%;
+}
